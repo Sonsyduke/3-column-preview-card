@@ -204,3 +204,35 @@ body {
 .btn-right {
   color: var(--very-dark-cyan);
 }
+
+/* END OF GENERAL CSS */
+
+/* RESPONSIVENESS */
+
+@media (max-width: 1300px) {
+  .main-container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 700px) {
+  .main-container {
+    width: 50%;
+    flex-direction: column;
+    height: 1000px;
+  }
+
+  .left {
+    border-radius: 10px 10px 0 0;
+    height: 350px;
+  }
+
+  .mid {
+    height: 350px;
+  }
+
+  .right {
+    border-radius: 0 0 10px 10px;
+    height: 350px;
+  }
+}
