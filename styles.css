@@ -236,3 +236,9 @@ body {
     height: 350px;
   }
 }
+
+@media (max-width: 500px) {
+  .main-container {
+    width: 80%;
+  }
+}
